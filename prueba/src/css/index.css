@@ -3,12 +3,13 @@
 :root {
   --reddit: #FF4500;
   --principal: #ffffff;
-  --primary: #DAE0E6;
+  --primary: #e5e7eb;
   --secondary: #0079D3;
-  --tertiary: #6e7174;
+  --tertiary: #caced3;
   --community-theme-primary: #073642;
   --community-theme-secondary: #cb4b16;
   --community-theme-tertiary: #002b36;
+  width: 100%;
 }
 
 * {

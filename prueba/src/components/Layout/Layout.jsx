@@ -6,7 +6,6 @@ function Layout(){
         <>
         <Header/>
         <Body/>
-        <h1>HEY!</h1>
         </>
     )
 }

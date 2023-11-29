@@ -12,6 +12,13 @@ header{
     align-items: center;
 }
 
+.select-header{
+    border: none;
+    width: 18rem;
+    height: 3rem;
+    border-radius: 10px;
+}
+
 .container-header{
     display: flex;
     align-items: center;
@@ -50,14 +57,20 @@ header{
     background-color: var(--primary);
     width: 35%;
     height: 90%;
-    border-radius: 30%;
+    border-radius: 30px;
+    font-size: 1.2rem;
+}
+
+.search-reddit{
+    color: #bbbbbb;
+    margin-left: 1rem;
 }
 
 .advertise{
 
     background-color: var(--primary);
     width: 14rem;
-    border-radius: 30%;
+    border-radius: 30px;
     margin-left: 6%;
 }
 
@@ -67,5 +80,56 @@ header{
 }
 
 .profile-arrow{
-
+    width: 2rem;
+    height: 2rem;
 }
+
+.searched{
+    height: 2.3rem;
+    background-color: var(--tertiary);
+    font-size: 1.3rem;
+    border-radius: 30px;
+}
+
+.searched-x{
+    margin-left: .5rem;
+    margin-right: .5rem;
+}
+
+.icon-profile{
+    margin-left: .5rem;
+    margin-right: .5rem;
+}
+
+ 
+  
+   
+    
+     
+      
+       
+        
+         
+          
+           
+            
+             
+              
+               
+                
+               
+              
+             
+            
+           
+          
+         
+        
+       
+      
+     
+    
+   
+  
+ 
+

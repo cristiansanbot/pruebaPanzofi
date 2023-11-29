@@ -1,3 +1,126 @@
 .channel-info{
-    background-color: yellow;
+    background-color: var(--principal);
+    height: 33rem;
+    width: 26rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.channel-info-general{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+    position: relative;
+    top: -2rem;
+}
+
+.profile-icon{
+    height: 5rem;
+    width: 5rem;
+    margin-right: .7rem;
+}
+
+.info-general-p-name, .info-general-p-description, .info-general-p-created{
+    display: flex;
+    align-items: center;
+}
+
+.info-general-p-name{
+    margin-top: .4rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.info-general-p-description{
+    font-size: 1.3rem;
+    margin-top: .2rem;
+    margin-bottom: .3rem;
+    font-weight: 300;
+}
+
+.info-general-p-created{
+    font-size: 1.2rem;
+    margin-top: .6rem;
+    color: #a39d9d;
+    align-items: center;
+}
+
+.cake{
+    font-size: 1.8rem;
+    margin-right: .35rem;
+}
+
+.channel-info-space{
+    background-color: var(--community-theme-primary);
+    height: 3rem;
+    width: 99.6%;
+    margin: 1px;
+    border-color: white;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.channel-score{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    font-size: 1.6rem;
+}
+
+.channel-score-info, .channel-score-info-online{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 2rem;
+}
+
+.detail-span{
+    font-size: 1rem;
+    color: #a39d9d;
+}
+
+
+.Community-theme-none{
+    display: none;
+}
+.Community-theme{
+    display:flex
+}
+.dot{
+    color: rgb(54, 255, 47);
+    height: 3rem;
+    width: 3rem;
+    position: relative;
+    top: 1rem;
+    right: -.5rem;
+}
+
+.button{
+    width: 90%;
+    color: var(--principal);
+    background-color: var(--community-theme-secondary);
+    border: none;
+    height: 3rem;
+    border-radius: 3rem;
+}
+
+.community-options{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.community-options-button{
+    width: 90%;
+    border: none;
+    background-color: var(--principal);
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
 }

@@ -21,10 +21,10 @@ function Header() {
                 <h2>reddit</h2>
                 </div>
                     
-                <select name="" id="">
-                    <option value="">prueba</option>
-                    <option value="">prueba1</option>
-                    <option value="">prueba2</option>
+                <select className="select-header"name="" id="">
+                    <option value=""> <CgProfile/> r/programming</option>
+                    <option value=""> r/programming</option>
+                    <option value=""> r/programming</option>
                     <section>
                         <h6>FEEDS</h6>
                         <option value="">Home</option>
@@ -45,11 +45,11 @@ function Header() {
                 <div className="container-header searchBar">
                     <CiSearch className="icon-header"/>
                     <div className="container-header searched">
-                        <CgProfile />
+                        <CgProfile className="icon-profile"/>
                         <h5>r/programming</h5>
-                        <SlClose />
+                        <SlClose className="searched-x"/>
                     </div>
-                    <h4>Search Reddit</h4>
+                    <h4 className="search-reddit">  Search Reddit</h4>
                 </div>
 
                 <div className="container-header actions">

@@ -1,10 +1,9 @@
-.comment-section{
-    height: 60rem;
-    animation: loadingAnimation 1.5s infinite;
+.Comment{
+    height: 20rem;
+    background-color: var(--primary);
+    margin-bottom: 3rem;
     border-radius: 25px;
-}
-.search-comments, .comments{
-    display: none;
+    animation: loadingAnimation 1.5s infinite;
 }
 
 @keyframes loadingAnimation {

@@ -2,6 +2,10 @@
     background-color: var(--principal);
     display: flex;
     width: 100%;
+    justify-content: space-between;
+    border-radius: 7px;
+    padding-right: 1rem;
+    padding-top: .4rem;
 }
 
 .post-info{
@@ -10,9 +14,18 @@
     justify-content: space-between;
 }
 
+.content-post {
+    margin-top: .5rem;
+}
+
+.general-post{
+    width: 100%;
+}
+
 .info-post{
     display: flex;
     align-items: center;
+
 }
 
 .posted-by{
@@ -42,5 +55,85 @@
 }
 
 .tittle{
+    font-size: 1.7rem;
+    margin-bottom: .4rem;
+}
+
+.body-link{
+    font-size: 1.2rem;
+    color: var(--community-theme-secondary);
+}
+
+.post{
+    display: flex;
+    width: 100%;
+    height: 15rem;    
+    justify-content: space-between;
+}
+
+.actions-post, .container-actions{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 1.2rem;
+    color: #a39d9d;
+}
+
+.container-actions{
+    width: 100%;
+    padding-bottom: 1rem;
+
+}
+
+.container-actions-especific{
+    display: flex;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    align-items: center;
+}
+
+.container-actions-especific-text{
+    margin-left: .7rem;
+}
+
+.container-actions-especific-icon{
+    font-size: 2rem;
+}
+
+.container-people{
+    display: flex;
+    width: 25%;
+    margin-right: 2rem;
+    align-items: center;
+}
+
+.people-icon{
+    margin-left: 1rem;
+    font-size: 2rem;
+}
+
+.link{
+    width: 11rem;
+    height: 9rem;
+    color: var(--community-theme-secondary);    
+    outline: 1px solid var(--community-theme-secondary);
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.link-chain{
+    position: relative;
+    right: -1rem;
+}
+
+.link-share{
+    position:relative;
+    bottom: -3.7rem;
+    right: -3.9rem;
+    color: var(--principal);
+    background-color: var(--community-theme-secondary);
     font-size: 1.4rem;
+    border-radius: 2px;
 }

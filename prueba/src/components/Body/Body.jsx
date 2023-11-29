@@ -1,11 +1,11 @@
 import Info from "../Info/Info";
 import Post from "../Post/Post";
-import CommentsSection from "../CommentsSection/CommentsSection";
 import ChannelInfo from "../ChannelInfo/ChannelInfo";
 import Rules from "../Rules/Rules";
 import post from "../../utils/post.json"
 import channel from "../../utils/channel.json"
 import rules from "../../utils/rules.json"
+import img from "../../utils/programming.png"
 import "./Body.css"
 
 function Body() {
@@ -23,7 +23,7 @@ function Body() {
                     <div className="content">
                         <div className="body-post">
                             <Post post={post.post1} />
-                            <CommentsSection />
+                            
                         </div>
 
                         <div className="body-channe-info">

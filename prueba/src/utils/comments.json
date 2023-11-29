@@ -1,13 +1,26 @@
 {
     "coments": {
-        "comment1":{
-        "owner": "stronghup",
-        "body": "'People are too focused on code generation and completely ignore that LLMs are useful for code analysis,'",
-        "votes": "58",
-        "dateUp": "11-20-2023 22:19:33",
-        "comments": {
-            
-        }
+        "comment1": {
+            "owner": "stronghup",
+            "body": "'People are too focused on code generation and completely ignore that LLMs are useful for code analysis,'",
+            "votes": "58",
+            "dateUp": "14 hr. ago",
+            "comments": {
+                "comment1": {
+                "owner": "Ieris19",
+                "body": "They aren't 9 out of 10 times i ash ChatGPT or copilot they dont have a clue, the responses look ok but always have serious mistakes. it doesn't really understand the code. But for generating queries, translating from one language to another, etc it usually does a perfect job.",
+                "votes": "66",
+                "dateUp": "8 hr. ago",
+                "comments": {}
+                }
+            }
+        },
+        "comment2": {
+            "owner": "dcspazz",
+            "body": "Someone has to write a ticket that makes fucking sense before AI can do anything. Thet's how i know it won't happen'",
+            "votes": "671",
+            "dateUp": "18 hr. ago",
+            "comments": {}
         }
     }
 }

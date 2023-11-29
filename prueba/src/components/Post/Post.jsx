@@ -10,6 +10,9 @@ import { CiBookmark } from "react-icons/ci";
 import { IoPeople } from "react-icons/io5";
 import { GoBell } from "react-icons/go";
 import { CgProfile } from "react-icons/cg";
+import { IoIosMore } from "react-icons/io";
+import Comment from "../Comment/Comment";
+import CommentsSection from "../CommentsSection/CommentsSection";
 import "./Post.css"
 
 function Post(props) {
@@ -24,37 +27,57 @@ function Post(props) {
                     </div>
                 </div>
 
-                <div>
+                <div className="general-post">
                     <div className="post-info">
                         <div className="info-post">
-                        <CgProfile className="icon"/>
-                        <p className="post-info-channel">r/{props.post.channel}</p>
-                        <p className="posted-by">Posted by u/{props.post.owner}</p>
+                            <CgProfile className="icon" />
+                            <p className="post-info-channel">r/{props.post.channel}</p>
+                            <p className="posted-by">Posted by u/{props.post.owner} {props.post.dateUp}</p>
                         </div>
-                    <div className="bell">
-                    <GoBell className="icon bell"/>
-                    </div>
+                        <div className="bell">
+                            <GoBell className="icon bell" />
+                        </div>
                     </div>
 
                     <div className="post">
-                        <h4 className="tittle">{props.post.tittle}</h4>
-                        <p>{props.post.body}</p>
-                        <div className="Link">
-                            <IoIosLink />
-                            <div className="link- share">
+                        <div className="content-post">
+                            <h4 className="tittle">{props.post.tittle}</h4>
+                            <a className="body-link" href="https://www.infoworld.com/article/3709230/what-ai-wont-replace-in-your-programming.html">{props.post.body}  <RiShareBoxLine /></a>
+                        </div>
+
+                        <div className="link">
+                            <IoIosLink  className="link-chain"/>
+                            <div className="link-share">
                                 <RiShareBoxLine />
                             </div>
                         </div>
+
                     </div>
 
-                    <div className="actions">
-                        <FaRegCommentAlt />
-                        <p>109 comments</p>
-                        <PiArrowBendUpRight />
-                        <CiBookmark />
-                        <p>{props.post.peopleHere} people here</p>
-                        <IoPeople />
+                    <div className="actions-post">
+                        <div className="container-actions">
+                            <div className="container-actions-especific">
+                            <FaRegCommentAlt className="container-actions-especific-icon" />
+                            <p className="container-actions-especific-text">109 comments</p>
+                            </div>
+                            <div className="container-actions-especific">
+                            <PiArrowBendUpRight className="container-actions-especific-icon" />
+                            <p className="container-actions-especific-text">Share</p>
+                            </div>
+                            <div className="container-actions-especific">
+                            <CiBookmark className="container-actions-especific-icon" />
+                            <p className="container-actions-especific-text">Save</p>
+                            </div>
+                            <IoIosMore className="container-actions-especific-icon"/>
+                        </div>
+
+                        <div className="container-people">
+                            <p>{props.post.peopleHere} people here</p>
+                            <IoPeople className="people-icon"/>
+                        </div>
                     </div>
+                <Comment/>
+                <CommentsSection />
                 </div>
             </div>
         </>
